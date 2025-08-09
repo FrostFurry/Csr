@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wedding Invitation - CSRimposter & Evelyn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(135deg, #fceabb 0%, #f8b500 25%, #c94b4b 50%, #4b134f 75%, #0f2027 100%);
+      background-size: 400% 400%;
+      animation: gradientBG 20s ease infinite;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .invitation {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 50px 30px;
+      max-width: 700px;
+      width: 90%;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    }
+
+    .invitation h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 64px;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    .names {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 20px 0 30px;
+      letter-spacing: 1px;
+      color: #ffebd8;
+    }
+
+    .divider {
+      width: 80px;
+      height: 4px;
+      margin: 20px auto;
+      background: linear-gradient(to right, #ffde59, #ff914d, #ff2e63, #845ec2);
+      border-radius: 10px;
+    }
+
+    .details {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #ffe;
+    }
+
+    .venue {
+      margin-top: 30px;
+      font-size: 16px;
+      color: #ffd;
+    }
+
+    .rsvp {
+      margin-top: 30px;
+      font-size: 15px;
+      color: #fff;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #f3f3f3;
+      opacity: 0.8;
+    }
+
+    .highlight {
+      background: linear-gradient(45deg, #ffde59, #ff914d, #ff2e63, #845ec2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .invitation h1 {
+        font-size: 44px;
+      }
+
+      .details {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="invitation">
+    <h1>You're Invited</h1>
+    <div class="names">CSRimposter <span class="highlight">&</span> Evelyn</div>
+    <div class="divider"></div>
+    <div class="details">
+      Together with their families,<br>
+      <span class="highlight">CSRimposter</span> and <span class="highlight">Evelyn</span><br>
+      joyfully invite you to celebrate their wedding<br>
+      on <strong class="highlight">October 24th, 2025</strong><br>
+      at <strong class="highlight">4:00 PM</strong>
+    </div>
+
+    <div class="venue">
+      📍 <strong>The Glass Garden</strong><br>
+      555 Seraphim Lane, Moonlight City
+    </div>
+
+    <div class="rsvp">
+      ✉️ RSVP by September 20th: <br>
+      <strong>rsvp@csrandevelyn.wedding</strong>
+    </div>
+
+    <div class="footer">
+      Dress Code: Bright & Elegant • Let Love Fly 💐🦜
+    </div>
+  </div>
+</body>
+</html>
